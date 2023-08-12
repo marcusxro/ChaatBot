@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChaatAI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="71c2b4ef-b7bc-4093-a779-c80a298f5683.jpg" type="image/icon type">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</head>
+<body>
+
+<header>
+    <div class="notif">
+        <ion-icon name="notifications-outline"></ion-icon>
+    </div>
+    <div class="tooltip">
+        you've got notifications!
+    </div>
+    <div class="tooltip-1">
+        <div class="title-tooltip">Updates:</div>
+        <div class="text-update">
+            Speech recognition,<br>
+            one click to copy,<br>
+            local news & international news
+    
+        </div>
+    </div>
+    <div class="header-text">ChaatAI</div>
+    <div class="clock">
+        <div id="hours">00</div>
+        <div class="colon">:</div>
+        <div id="minutes">00</div>
+        <div class="colon">:</div>
+        <div id="seconds">00</div>
+        <div id="session">PM</div>
+    </div>
+    <div class="menu">
+        <div class="lines"></div>
+        <div class="lines"></div>
+        <div class="lines"></div>
+    </div>
+</header>
+
+<div class="sidebar">
+    <div class="chat-history">
+        <div class="titles">chat-history</div>
+        <div class="questions"></div>
+        <p class="historyp" id="historyp"></p>
+    </div>
+    
+    <div class="bottom">
+
+        <div class="customize effect">
+            <div class="edit"><ion-icon name="create-outline"></ion-icon>
+            <div class="textinside">Customize</div></div>
+
+        </div>
+        
+    <div class="goback effect"> 
+        
+        <div class="home">
+          
+                <div class="home-text"><ion-icon name="home-outline"></ion-icon></div>
+                <div class="home-texts  ">Home</div>
+        </div>
+        
+        </div>
+
+        <div class="newchat effect">
+            <div class="new"><ion-icon name="refresh-outline"></ion-icon></div>
+            <div class="textss">New chat</div>
+        </div>
+    </div>
+    <div class="greet-con">
+        <div class="greet">
+            <div class="user">s</div>
+             <div class="greetss">
+                 <div class="titless">Menu</div>
+                 <div class="user-text">user</div>
+            </div>
+      
+         </div>
+    </div>
+   
+</div>
+
+<div class="custom">
+   <div class="customcon">
+    <div class="toggleCus">
+        <div class="firstCustom">
+              <div class="rangeInput">
+        <label for="range">change font size</label>
+             <input type="range" class="range" max="50">
+       </div>
+       <div class="fontLabel">0px</div>
+    </div>  
+    </div>
+            <div class="secondCustom">
+        <label for="colors">change background color</label>
+       <input type="color" class="colors" value="#282b30">
+    </div>
+    <div class="thirdCustom">
+    <div class="third-first">
+        <label for="check">default background</label>
+        <input type="checkbox" class="check" checked>
+    </div>
+        <div class="third-second">
+            <label for="checks">default fontSize</label>
+            <input type="checkbox" class="checks" checked>
+        </div>
+    </div>
+</div>
+   <div class="conditions">
+    <div class="close">close</div>
+    <div class="save">save</div>
+   </div>
+</div>
+
+<div class="popup">
+    <div class="contentinside">
+        <div class="textwarning">are you sure? this will remove all your sent messages.</div>
+        <div class="condition">
+            <div class="no">no</div>
+            <div class="yes">yes</div>
+        </div>
+    </div>
+</div>
+        <section class="main">
+            <div class="greets">
+                <div class="names">jerome</div>
+                <div class="ask">
+                    <div class="ask-first">ask me about:</div>
+                    <div class="ask-array"></div>
+                    <div class="session"></div>
+                </div>
+            </div>
+<div class="content-inside">
+
+    <div class="insides">
+
+        <div class="examples">
+            <div class="inside-title">
+                Examples
+            </div>
+            <div class="inside-con" id="insidescon">
+                <div class="text-inside">How can AI systems effectively differentiate between causation and correlation?</div>
+            </div>
+            <div class="inside-con" id="insidescon">
+                <div class="text-inside">How can AI assist in solving complex global challenges, such as climate change or poverty?</div>
+            </div>
+            <div class="inside-con" id="insidescon">
+                <div class="text-inside">Can AI help in achieving explainability and transparency in its decision-making processes?</div>
+            </div>
+            <div class="news-con">
+                <div class="news-title">Local News</div>
+                <div class="news">
+                    <div class="author">
+            
+                    </div>
+                    <div class="date">
+            
+                    </div>
+                    <div class="content-news">
+            
+                    </div>
+                    <div class="visit-link">
+                        visit link
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="capabilities">
+            <div class="inside-title">capabilities</div>
+            <div class="inside-con">
+<div class="text-inside">ChaatAI can understand and interpret human language, allowing for more conversational and intuitive interactions.</div>
+            </div>
+            <div class="inside-con">
+                <div class="text-inside">Multilingual Support: ChaatAI can communicate in multiple languages, breaking down language barriers and providing support to users from diverse backgrounds.</div>
+            </div>
+            <div class="inside-con">
+                <div class="text-inside">24/7 Availability: Unlike human agents, ChaatAI can provide around-the-clock support, ensuring that users can engage in conversations and receive assistance at any time.</div>
+            </div>
+        </div>
+        <div class="limitation">
+            <div class="inside-title">
+               limitation
+            </div>
+            <div class="inside-con">
+                <div class="text-inside">ChaatAi will not provide information about illegality.</div>
+            </div>
+            <div class="inside-con">
+                <div class="text-inside">it cannot produce insights as ChaatAI does not understand human emotions.</div>
+            </div>
+            <div class="inside-con">
+                <div class="text-inside">the response is only available for text.</div>
+            </div>
+            <div class="news-con">
+                <div class="news-title">International News</div>
+                <div class="news">
+                    <div class="authors">
+            
+                    </div>
+                    <div class="dates">
+            
+                    </div>
+                    <div class="content-newss">
+            
+                    </div>
+                    <div class="visit-links">
+                        visit link
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+    <div id="custom-cursor">click to copy</div>
+
+            <div class="text-container">
+         
+                    <p class="mychat">
+                        
+                    </p>
+               
+
+                        <p class="utputs" id="output"></p>
+              
+                    <p id="load" class="load">
+                        <div class="load-con">
+                            <div class="first blob"></div>
+                            <div class="second blobs"></div>
+                            <div class="third blobss"></div>
+                        </div>
+                    </p>
+            </div>
+            <div class="floating-mic">
+                <label for="mic" class="mics">i am draggable</label>
+                <ion-icon name="mic-outline" class="mic"></ion-icon>
+            </div>
+
+            <div class="bottom-sec">
+
+               <form class="input-container">
+             
+                    <input type="text" placeholder="Send a message" class="maininputs">
+                    <button id="submitbtn"><ion-icon class="send" name="send-outline"></ion-icon></button>
+                  
+               </form>
+
+               <div class="lower-content">
+                gpt-3.5-turbo
+            </div>
+            </div>
+            
+        </section>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="homepage.js"></script>
+        <script src="script.js"></script>
+</body>
+</html>
